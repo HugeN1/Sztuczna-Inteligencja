@@ -29,7 +29,7 @@ auto f1 = [](int x){
 };
 
 int main(int argc, char **argv) {
-    auto [a,b] = obliczenia(f1, f2, 10);
-    cout<< a << "|" << b <<endl;
+    auto a = obliczenia(f1, f2, 10);
+    cout<< a.first << "|" << a.second<<endl;
 }
 
