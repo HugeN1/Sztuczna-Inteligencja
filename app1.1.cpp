@@ -24,8 +24,8 @@ auto f2 = [](int i){
 };
 
 auto f1 = [](int x){
-    20-abs(x);
-    return x;
+   b = 20-abs(x);
+    return b;
 };
 
 int main(int argc, char **argv) {
